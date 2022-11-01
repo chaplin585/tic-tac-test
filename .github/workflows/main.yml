@@ -8,9 +8,13 @@ jobs:
 
     steps:  
       - uses: actions/checkout@v2    
-      - name: download libs
+      - name: download pytest
         run:
           pip install pytest
+      
+      - name: download tkinker
+        run:
+          pip install tkinker
       
       - name: Build make
         run:
