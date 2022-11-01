@@ -12,9 +12,6 @@ jobs:
         run:
           pip install pytest
       
-      - name: download tkinker
-        run:
-          pip install tkinker
       
       - name: Build make
         run:
