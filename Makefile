@@ -15,13 +15,9 @@ TEST2 = test2.py
 
 
 
-$(TARGET):  all 	
-	CAN_WIN
-	CL
-	CHW
-	C
-	CM
-
+$(TARGET): $(SRC)$(CW) $(SRC)$(CL)	
+	$(PY) $(SRC)$(CW)
+	$(PY) $(SRC)$(CL)
 
 
 CAN_WIN: $(SRC)$(CW)
