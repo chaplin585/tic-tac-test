@@ -16,12 +16,12 @@ TEST2 = test2.py
 
 
 $(TARGET): $(T)M.o $(T)CW.o $(T)CL.o $(T)CHW.o $(T)C.o $(T)CM.o 
-	$(PY) $(T)M.o
-	$(PY) $(T)CW.o
-	$(PY) $(T)CL.o
-	$(PY) $(T)CHW.o
-	$(PY) $(T)C.o
-	$(PY) $(T)CM.o
+	$(T)M.o
+	$(T)CW.o
+	$(T)CL.o
+	$(T)CHW.o
+	$(T)C.o
+	$(T)CM.o
 
 
 M.o: $(PY) $(SRC)$(M)
