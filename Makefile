@@ -11,7 +11,7 @@ T = thirdparty\
 
 TEST = test\
 
-TEST1 = test1.py
+TEST1 = test/test1.py
 TEST2 = test2.py
 
 
@@ -36,9 +36,9 @@ CM:$(SRC)$(CM)
 
 
 
-test: $(TEST)$(TEST1) $(TEST)$(TEST2)
-	$(PY) $(TEST)$(TEST1)
-	$(PY) $(TEST)$(TEST2)
+test:  $(TEST1)
+	$(PY) $(TEST1) 
+	
 
 
 
