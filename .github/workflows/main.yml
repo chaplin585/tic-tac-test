@@ -1,1 +1,19 @@
+name: Build
 
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:  
+      - uses: actions/checkout@v2    
+      - name: download libs
+        run:
+          pip install unittest
+      
+            
+      - name: Build application
+        run: 
+          make test
+          
