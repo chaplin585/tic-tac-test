@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v2    
       - name: download libs
         run:
-          pip install unittest
+          pip install pytest
       
             
       - name: Build application
