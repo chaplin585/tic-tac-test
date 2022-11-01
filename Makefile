@@ -16,7 +16,7 @@ TEST2 = test2.py
 
 
 $(TARGET): M CW CL CHW C CM 
-	M
+	MAIN
 	CW
 	CL
 	CHW
@@ -24,17 +24,17 @@ $(TARGET): M CW CL CHW C CM
 	CM
 
 
-M: $(PY) $(SRC)$(M)
+MAIN:$(SRC)$(M)
 	$(PY) $(SRC)$(M)
-CW: $(PY) $(SRC)$(CW)
+CW: $(SRC)$(CW)
 	$(PY) $(SRC)$(CW)
-CL: $(PY) $(SRC)$(CL)
+CL: $(SRC)$(CL)
 	$(PY) $(SRC)$(CL)
-CHW: $(PY) $(SRC)$(CHW)
+CHW:$(SRC)$(CHW)
 	$(PY) $(SRC)$(CHW)
-C: $(PY) $(SRC)$(C)
+C:$(SRC)$(C)
 	$(PY) $(SRC)$(C)
-CM: $(PY) $(SRC)$(CM)
+CM:$(SRC)$(CM)
 	$(PY) $(SRC)$(CM)
 	
 
