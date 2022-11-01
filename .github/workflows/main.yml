@@ -12,8 +12,11 @@ jobs:
         run:
           pip install pytest
       
-            
-      - name: Build application
+      - name: Build make
+        run:
+          make      
+      
+      - name: Build test
         run: 
           make test
           
