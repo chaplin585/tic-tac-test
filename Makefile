@@ -10,6 +10,7 @@ CM = computer_move.py
 T = thirdparty\
 
 TEST = test\
+
 TEST1 = test1.py
 TEST2 = test2.py
 
