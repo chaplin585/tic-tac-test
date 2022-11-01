@@ -15,7 +15,7 @@ TEST2 = test2.py
 
 
 
-$(TARGET): M. CW CL CHW C CM 
+$(TARGET): M CW CL CHW C CM 
 	M
 	CW
 	CL
