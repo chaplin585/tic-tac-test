@@ -1,4 +1,4 @@
-from tkinter import *
+import tkinter as tk
 import random
 from click import clickk
 root = Tk()
