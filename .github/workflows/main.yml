@@ -12,6 +12,9 @@ jobs:
         run:
           pip install pytest
       
+      - name: download tkinker
+        run:
+          sudo apt-get install python3-tk
       
       - name: Build make
         run:
