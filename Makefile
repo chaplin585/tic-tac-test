@@ -24,7 +24,7 @@ $(TARGET): $(T)M.o $(T)CW.o $(T)CL.o $(T)CHW.o $(T)C.o $(T)CM.o
 	$(PY) $(T)CM.o
 
 
-M: $(PY) $(SRC)$(M)
+M.o: $(PY) $(SRC)$(M)
 	$(PY) $(SRC)$(M)
 CW: $(PY) $(SRC)$(CW)
 	$(PY) $(SRC)$(CW)
