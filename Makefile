@@ -8,7 +8,8 @@ CHW = check_win.py
 C = click.py
 CM = computer_move.py
 T = thirdparty\
-TEST = test/
+
+TEST = test\
 TEST1 = test1.py
 TEST2 = test2.py
 
