@@ -9,10 +9,8 @@ C = click.py
 CM = computer_move.py
 T = thirdparty\
 
-TEST = test\
-
 TEST1 = test/test1.py
-TEST2 = test2.py
+TEST2 = test/test2.py
 
 
 
@@ -36,8 +34,9 @@ CM:$(SRC)$(CM)
 
 
 
-test:  $(TEST1)
-	$(PY) $(TEST1) 
+test:  $(TEST1) $(TEST2)
+	$(PY) $(TEST1)
+	$(PY) $(TEST2)  
 	
 
 
