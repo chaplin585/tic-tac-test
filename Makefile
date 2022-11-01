@@ -24,8 +24,7 @@ $(TARGET):  CW CL CHW C CM
 	CM
 
 
-MAIN:$(SRC)$(M)
-	$(PY) $(SRC)$(M)
+
 CW: $(SRC)$(CW)
 	$(PY) $(SRC)$(CW)
 CL: $(SRC)$(CL)
