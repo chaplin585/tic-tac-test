@@ -17,7 +17,7 @@ jobs:
           sudo apt-get install python3-tk
       - name: dad
         run:
-          export DISPLAY=mymachine.com:0.0
+          export $DISPLAY = mymachine.com:0.0
 
       
       - name: Build make
